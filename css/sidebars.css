@@ -6,14 +6,15 @@ body {
 html {
   height: -webkit-fill-available;
 }
-
+/* 
 main {
   height: 100vh;
   height: -webkit-fill-available;
   max-height: 100vh;
   overflow-x: auto;
   overflow-y: hidden;
-}
+
+} */
 
 .dropdown-toggle { outline: 0; }
 
