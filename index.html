@@ -273,13 +273,14 @@
             class="container-fluid justify-content-center justify-content-md-between"
           >
             <a class="navbar-brand fw-medium fs-3 mb-1 mb-md-0"
-              >Amjad Sharaf</a
+              > <h3 onmouseover="style.color='red'" onmouseout="style.color='white'">Amjad Sharaf</h3></a
             >
 
             <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
                 type="search"
+                onfocus="myFunction(this)"
                 placeholder="Search"
                 aria-label="Search"
               />
@@ -345,9 +346,13 @@
           </tbody>
         </table>
       </section>
+     
+      <button onclick="mwfunction()" style="background-color: #5a23c8; color:  wheat;">Help </button>
+      <p id="help"></p>
     </main>
     <script src="./js/bootstrap.bundle.min.js"></script>
 
     <script src="./js/sidebars.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
